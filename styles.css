@@ -1,6 +1,6 @@
 * {
     font-family: 'Lobster', cursive;
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
 }
 
 .banner {
@@ -13,7 +13,6 @@
 .card {
     position: absolute;
     top: 28em;
-    border-radius: var(--borders);
     box-shadow: 0px 4px 12px rgba(8, 4, 25, 0.537);
 
 }
@@ -26,16 +25,6 @@
     height: 25rem;
 }
 
-.should-buy {
-    @media (max-width: 768px) {
-
-        margin-top: 350px;
-        margin-left: 150px;
-    }
-
-
-}
-
 .review {
     border-color: black;
     border-style: solid;
@@ -44,4 +33,46 @@
 .footer {
 
     background-color: goldenrod;
+}
+
+.words {
+    flex-direction: column;
+}
+
+
+
+/* I spent hours on this and this what worked to get my words to stack
+I used flex-direction: column and it fixed my problem.
+.words {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .content {
+    flex: 1 1 auto;
+}
+
+*/
+
+
+
+
+
+
+
+
+body.debug .container,
+body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+}
+
+body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
 }
