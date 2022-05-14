@@ -25,9 +25,25 @@
     height: 25rem;
 }
 
-.review {
-    border-color: black;
-    border-style: solid;
+.highlight-review {
+    /*filter: drop-shadow(1px 0px 0px rgb(67, 67, 67));
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 18%) !important*/
+    border: 0;
+    box-shadow: 0 14px 16px 0 hsl(0deg 0% 0% / 20%);
+
+}
+
+/* come back to this line later after trying a different web browser webkit-center
+made the text look better in the card but make sure it doesnt look bad
+on other browser and mobile*/
+
+.highlight-review {
+    text-align: -webkit-center;
+}
+
+.mdi-star-circle {
+    font-size: 55px;
+    color: goldenrod;
 }
 
 .footer {
