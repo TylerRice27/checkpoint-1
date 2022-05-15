@@ -16,7 +16,15 @@
         display: none;
     }
 
+    .spill {
+        margin: 1em;
+    }
+
+
 }
+
+/* This is for one the screen gets bigger 
+for laptops and desktops*/
 
 @media (min-width: 768px) {
 
