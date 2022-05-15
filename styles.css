@@ -18,6 +18,14 @@
 
 /* This hides image text for mobile;*/
 @media (max-width: 768px) {
+
+
+    .words {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+
     .text-over-img {
         display: none;
     }
@@ -49,7 +57,14 @@ for laptops and desktops*/
 
     }
 
+    .words {
+        flex-direction: column;
 
+        /* I put this in to make sure the words are not covered by the spill
+    because I changed it to a video instead of a picture. */
+
+        margin-top: 6rem;
+    }
 
 
 
@@ -102,10 +117,6 @@ on other browser and mobile*/
 .footer {
 
     background-color: goldenrod;
-}
-
-.words {
-    flex-direction: column;
 }
 
 
