@@ -11,9 +11,11 @@
 
 .banner {
     background-image: url("elden-ring-background.jpg");
-    /* object-fit: cover;*/
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: 89%;
+    background-size: inherit;
 }
 
 /* This hides image text for mobile;*/
