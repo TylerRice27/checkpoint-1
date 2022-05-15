@@ -3,6 +3,12 @@
     /* font-family: 'Permanent Marker', cursive; */
 }
 
+
+.nav {
+    color: goldenrod;
+}
+
+
 .banner {
     background-image: url("elden-ring-background.jpg");
     /* object-fit: cover;*/
@@ -21,6 +27,14 @@
     }
 
 
+    /* Nice stands for what I called the class
+so I could center the text in the words
+on mobile*/
+
+    .nice {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* This is for one the screen gets bigger 
@@ -30,7 +44,7 @@ for laptops and desktops*/
 
     .spill {
         position: absolute;
-        top: 28em;
+        top: 32em;
         box-shadow: 0px 4px 12px rgba(8, 4, 25, 0.537);
 
     }
@@ -46,6 +60,7 @@ for laptops and desktops*/
         box-shadow: 0 14px 16px 0 hsl(0deg 0% 0% / 20%);
 
     }
+
 
 
 }
