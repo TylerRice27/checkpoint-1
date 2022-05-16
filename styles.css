@@ -22,6 +22,17 @@
 @media (max-width: 768px) {
 
 
+
+    /* This is fixing the problem with some extra white space on the right side of my
+    screen on mobile but come back to this code first see if there is any
+    nested divs or margins causing the problem*/
+
+    html,
+    body {
+
+        overflow-x: hidden;
+    }
+
     .banner {
         /* display: none; */
 
@@ -66,9 +77,16 @@ for laptops and desktops*/
 
 @media (min-width: 768px) {
 
+    /* navbar stays still on desktop*/
+    .stay {
+
+        position: sticky;
+    }
+
+
     .spill {
         position: absolute;
-        top: 32em;
+        top: 35em;
         box-shadow: 0px 4px 12px rgba(8, 4, 25, 0.537);
 
     }
@@ -135,16 +153,8 @@ on other browser and mobile*/
     background-color: goldenrod;
 }
 
-/*
 
-This is fixing the problem with some extra white space on the right side of my
-screen on mobile but come back to this code first see if there is any
-nested divs or margins causing the problem
 
-html,
-body {
-    overflow-x: hidden;
-}
 
 /* I spent hours on this and this what worked to get my words to stack
 I used flex-direction: column and it fixed my problem.
