@@ -152,12 +152,12 @@ on other browser and mobile*/
     text-align: -webkit-center;
 }
 
-.mid {
+/* .mid {
 
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+} */
 
 .mdi-star-circle {
     font-size: 55px;
