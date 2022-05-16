@@ -43,6 +43,14 @@
         width: 85%;
     }
 
+    .video {
+        width: 396px;
+        height: 213px;
+        ;
+        display: flex;
+        margin-left: -1em;
+        margin-right: 0em;
+    }
 
 
 
@@ -98,6 +106,7 @@ for laptops and desktops*/
     because I changed it to a video instead of a picture. */
 
         margin-top: 6rem;
+        margin-left: 10rem;
     }
 
 
