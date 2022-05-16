@@ -22,6 +22,19 @@
 @media (max-width: 768px) {
 
 
+    .banner {
+        /* display: none; */
+
+        background-image: url("elden-ring-mobile.jpeg");
+    }
+
+    .form {
+        width: 85%;
+    }
+
+
+
+
     .words {
         flex-direction: column;
         margin-top: 1rem;
@@ -34,6 +47,7 @@
 
     .spill {
         margin: 1em;
+        width: 90%;
     }
 
 
@@ -121,7 +135,16 @@ on other browser and mobile*/
     background-color: goldenrod;
 }
 
+/*
 
+This is fixing the problem with some extra white space on the right side of my
+screen on mobile but come back to this code first see if there is any
+nested divs or margins causing the problem
+
+html,
+body {
+    overflow-x: hidden;
+}
 
 /* I spent hours on this and this what worked to get my words to stack
 I used flex-direction: column and it fixed my problem.
